@@ -12,9 +12,10 @@ public class A123 {
         if (a.length < 1) {
             throw new java.util.NoSuchElementException("Tabellen a er tom!");
         }
+        //3 Bruk mindre eller er lik tegn for å finne det minste tallet lengst ut i arrayet.
         int m = 0; // indeks til foreløbig minste verdi (m for min)
         for(int i = 1; i < a.length; ++i){ // Obs starter med 1.
-            if(a[i] < a[m]){
+            if(a[i] <= a[m]){
                 m = i; // indeksen oppdateres
             }
         }
@@ -24,4 +25,7 @@ public class A123 {
         int[] array2 = {8, 4, 17, 10, 6, 20, 1, 11, 15, 1, 18, 9,  2,  7,  19};
         System.out.println(min(array2));
     }
+
 }
+
+
