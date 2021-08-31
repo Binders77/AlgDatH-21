@@ -1,4 +1,4 @@
-package Oppgaver;
+package Ukes34;
 //1
 //Array     8 4 17 6 20 1 11 15 3 18 9  2  7  19
 
